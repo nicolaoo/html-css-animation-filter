@@ -190,43 +190,38 @@ ESERCIZIO 12
 ESERCIZIO 13
  *****************/
 
- .ex-12-button:hover{
-    background-color: rgb(135, 13, 13);
-    transition: 5s;
-    width: 230px;
-    height: 100px;
- }
- 
  .ex-13-top-white{
      position: relative;
    background-color: red;
-   animation-name: top-bot;
-   animation-duration: 15s;
+   animation-name: top-bot-13;
+   animation-duration: 5s;
    animation-iteration-count: infinite;
  }
  
- @keyframes top-bot {
+ @keyframes top-bot-13 {
  
      0% { left:-30px; top:-10px;}
      15%{ left: 162px; top:-10px;}
-     25% {left: 162px; top: 30px;}
-     35% {left: 162px; top: -10px;}
-     45%{left: -30px; top:-10px;}
+     25% {left: 162px; top: 50px;}
+     35% {left: -30px; top: 50px;}
+     45%{left: -30px; top:-10px ;}
+     
     
  }
  
  .ex-13-bottom-white {
      position: relative;
    background-color: red;
-   animation-name: bottom-bot;
-   animation-duration: 15s;
+   animation-name: bottom-bot-13;
+   animation-duration: 5s;
    animation-iteration-count: infinite;
+   
  }
  
- @keyframes bottom-bot {
-     0% { left:0px; top:-30px;}
+ @keyframes bottom-bot-13 {
+     0% { left:-30px; top:-30px;}
      15%{ left: 160px; top:-30px;}
-     25% {left: 160px; top: -80px;}
-     35% {left: 160px; top: -30px;}
+     25% {left: 160px; top: -100px;}
+     35% {left: -30px; top: -100px;}
      45%{left:-30px; top:-30px;}
  }
