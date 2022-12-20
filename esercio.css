@@ -1,0 +1,151 @@
+/*************
+ESERCIZIO 1
+ *****************/
+
+.ex-1-square:hover{
+    background-color: red;
+}
+
+.ex-1-square {
+    transition: 5s;
+}
+
+/*************
+ESERCIZIO 2
+ *****************/
+
+.ex-2-square:hover {
+    width: 300px;
+    height: 300px;
+}
+
+/*************
+ESERCIZIO 3
+ *****************/
+
+.ex-3-square:hover{
+    border-radius: 100px;
+    transition: 7s;
+}
+
+/*************
+ESERCIZIO 4
+ *****************/
+
+ .ex-4-square:hover{
+    opacity: 0;
+     
+ }
+
+ .ex-4-square {
+    transition: 5s;
+ }
+
+ /*************
+ESERCIZIO 5
+ *****************/
+
+ .ex-5-square:hover {
+    width: 100px;
+    height: 100px;
+    transition: 3s;
+ }
+
+ .ex-5-square {
+    width: 40px;
+    height: 40px;
+    transition: 4s;
+ }
+
+
+/*************
+ESERCIZIO 6
+ *****************/
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/*************
+ESERCIZIO 7
+ *****************/
+
+.ex-7-img:hover {
+    filter: blur(5px);
+    
+    filter: contrast(5);
+}
+
+.ex-7-img {
+    transition: 5s;
+}
+
+/*************
+ESERCIZIO 8
+ *****************/
+
+.ex-8-img:hover {
+    filter: sepia(100%);
+    filter: saturate(4);
+    border-radius: 50px;
+}
+
+.ex-8-img{
+    transition: 5s;
+}
+
+/*************
+ESERCIZIO 9
+ *****************/
+
+.ex-9-img:hover {
+    filter: invert(50%);
+    filter: brightness(3);
+    border-radius: 50px;
+}
+
+.ex-9-img{
+    transition: 10s;
+}
+
+/*************
+ESERCIZIO 10
+ *****************/
+
+ .ex-10-icon{
+    animation-duration: 5s;
+    animation: giro;
+    position: relative;
+    animation-iteration-count: infinite;
+ }
+
+
+@keyframes giro {
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        left:200px; top:0px;
+    }
+    50%{
+        left:200px; top:200px;
+    }
+    75%{
+        left:0px; top:200px;
+    }
+    100%{
+        left:0px; top:0px;
+    }
+}
+
+/*************
+ESERCIZIO 12
+ *****************/
+
+.ex-12-button:hover{
+   background-color: rgb(135, 13, 13);
+   transition: 5s;
+   width: 230px;
+   height: 100px;
+}
